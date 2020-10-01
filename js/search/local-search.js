@@ -1,13 +1,13 @@
 $(function () {
   let loadFlag = false
-  const openSearch = function () {
+  $('a.social-icon.search').on('click', function () {
     $('body').css({
       width: '100%',
       overflow: 'hidden'
     })
-    $('#local-search').css('display', 'block')
+    $('.search-dialog').css('display', 'block')
     $('#local-search-input input').focus()
-    $('#search-mask').fadeIn()
+    $('.search-mask').fadeIn()
     if (!loadFlag) {
       search(GLOBAL_CONFIG.localSearch.path)
       loadFlag = true
@@ -20,37 +20,27 @@ $(function () {
         document.removeEventListener('keydown', f)
       }
     })
-  }
+  })
 
   const closeSearch = function () {
-    $('body').css({
-      width: '',
-      overflow: ''
-    })
-    $('#local-search').css({
+    $('body').css('width', '')
+    $('body').css('overflow', '')
+    $('.search-dialog').css({
       animation: 'search_close .5s'
     })
 
-    setTimeout(function () {
-      $('#local-search').css({
-        animation: '',
-        display: 'none'
-      })
-    }, 500)
+    $('.search-dialog').animate({}, function () {
+      setTimeout(function () {
+        $('.search-dialog').css({
+          animation: '',
+          display: 'none'
+        })
+      }, 500)
+    })
 
-    $('#search-mask').fadeOut()
+    $('.search-mask').fadeOut()
   }
-
-  const searchClickFn = () => {
-    $('a.social-icon.search').on('click', openSearch)
-    $('#search-mask, .search-close-button').on('click', closeSearch)
-  }
-
-  searchClickFn()
-  window.addEventListener('pjax:success', function () {
-    $('#local-search').is(':visible') && closeSearch()
-    searchClickFn()
-  })
+  $('.search-mask, .search-close-button').on('click touchstart', closeSearch)
 
   function search (path) {
     $.ajax({
@@ -85,7 +75,7 @@ $(function () {
             }
             let dataTitle = data.title.trim().toLowerCase()
             const dataContent = data.content.trim().replace(/<[^>]+>/g, '').toLowerCase()
-            const dataUrl = data.url.startsWith('/') ? data.url : GLOBAL_CONFIG.root + data.url
+            const dataUrl = data.url
             let indexTitle = -1
             let indexContent = -1
             let firstOccur = -1
@@ -155,7 +145,6 @@ $(function () {
           }
           str += '</div>'
           $resultContent.innerHTML = str
-          window.pjax && window.pjax.refresh($resultContent)
         })
       }
     })
