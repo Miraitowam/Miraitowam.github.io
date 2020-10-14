@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>数值分析</title>
-    <url>/posts/35252/</url>
-    <content><![CDATA[<h1>第一章</h1>
-<h2 id="题目">题目</h2>
-<br>
-<p><img src= "/img/loading.gif" data-src="https://gitee.com/lin-xi98/cloudimage/raw/master/text1.jpg" alt=""><br>
-<br></p>
-<h2 id="分析">分析</h2>
-<p>  这道题我们要利用迭代格式来求级数的和，不同的是求和的顺序，一个是从大到小而另外一个是从小到大。此题可以用循环轻松秒杀，问题是如何输出有效位数？在这个问题上我思考了很久，其实完全可以输出答案后自己看有几位，但我就是懒，想要直接输出控制台上。</p>
-<h2 id="代码实现">代码实现</h2>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">clear;clc;</span><br><span class="line">while(1)</span><br><span class="line">    N &#x3D; input(&#39;请输入任意大于等于2的整数：&#39;);</span><br><span class="line">    if N&lt;2</span><br><span class="line">        fprintf(&#39;error,please input again \n&#39;);</span><br><span class="line">    else</span><br><span class="line">        break;</span><br><span class="line">    end</span><br><span class="line">end</span><br><span class="line">SN1 &#x3D; single(0);</span><br><span class="line">SN2 &#x3D; single(0);</span><br><span class="line">for i &#x3D; 2:N</span><br><span class="line">    SN1 &#x3D; SN1 +1&#x2F;(i^2-1);</span><br><span class="line">    SN2 &#x3D; SN2 +1&#x2F;((N-i+2)^2-1);</span><br><span class="line">end</span><br><span class="line">acuratevalue &#x3D; 1&#x2F;2*(3&#x2F;2-1&#x2F;N-1&#x2F;(N+1));</span><br><span class="line">fprintf(&#39;当N的次数为%d时,所取得的精确值为：%d \n&#39;,N,acuratevalue);</span><br><span class="line">fprintf(&#39;若采用从大到小的顺序求得的结果为：%f \n&#39;,SN1);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN1,6))-2);</span><br><span class="line">fprintf(&#39;若采用从小到大的顺序求得的结果为：%f \n&#39;,SN2);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN2,6))-2);</span><br></pre></td></tr></table></figure>
-<h2 id="总结分析">总结分析</h2>
-<p>  😆最后还是很方便的把有几位输出到了控制台，原理就是length函数，偷了个懒知道求出来都是小数，指定保存位数，然后数出来小数点后有几位就完事了，前面我还想那么复杂😒，心得就是大数吃小数。</p>
-]]></content>
-      <categories>
-        <category>研一</category>
-      </categories>
-      <tags>
-        <tag>数值分析</tag>
-        <tag>研究生课程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/520520/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -132,5 +109,28 @@
 </br>  
 <p>-左对齐， :-: 中心对齐，-: 右对齐</p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=479223232&auto=0&height=66"></iframe>]]></content>
+  </entry>
+  <entry>
+    <title>数值分析</title>
+    <url>/posts/35252/</url>
+    <content><![CDATA[<h1>第一章</h1>
+<h2 id="题目">题目</h2>
+<br>
+<p><img src= "/img/loading.gif" data-src="https://gitee.com/lin-xi98/cloudimage/raw/master/text1.jpg" alt=""><br>
+<br></p>
+<h2 id="分析">分析</h2>
+<p>  这道题我们要利用迭代格式来求级数的和，不同的是求和的顺序，一个是从大到小而另外一个是从小到大。此题可以用循环轻松秒杀，问题是如何输出有效位数？在这个问题上我思考了很久，其实完全可以输出答案后自己看有几位，但我就是懒，想要直接输出控制台上。</p>
+<h2 id="代码实现">代码实现</h2>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">clear;clc;</span><br><span class="line">while(1)</span><br><span class="line">    N &#x3D; input(&#39;请输入任意大于等于2的整数：&#39;);</span><br><span class="line">    if N&lt;2</span><br><span class="line">        fprintf(&#39;error,please input again \n&#39;);</span><br><span class="line">    else</span><br><span class="line">        break;</span><br><span class="line">    end</span><br><span class="line">end</span><br><span class="line">SN1 &#x3D; single(0);</span><br><span class="line">SN2 &#x3D; single(0);</span><br><span class="line">for i &#x3D; 2:N</span><br><span class="line">    SN1 &#x3D; SN1 +1&#x2F;(i^2-1);</span><br><span class="line">    SN2 &#x3D; SN2 +1&#x2F;((N-i+2)^2-1);</span><br><span class="line">end</span><br><span class="line">acuratevalue &#x3D; 1&#x2F;2*(3&#x2F;2-1&#x2F;N-1&#x2F;(N+1));</span><br><span class="line">fprintf(&#39;当N的次数为%d时,所取得的精确值为：%d \n&#39;,N,acuratevalue);</span><br><span class="line">fprintf(&#39;若采用从大到小的顺序求得的结果为：%f \n&#39;,SN1);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN1,6))-2);</span><br><span class="line">fprintf(&#39;若采用从小到大的顺序求得的结果为：%f \n&#39;,SN2);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN2,6))-2);</span><br></pre></td></tr></table></figure>
+<h2 id="总结分析">总结分析</h2>
+<p>  😆最后还是很方便的把有几位输出到了控制台，原理就是length函数，偷了个懒知道求出来都是小数，指定保存位数，然后数出来小数点后有几位就完事了，前面我还想那么复杂😒，心得就是大数吃小数。</p>
+]]></content>
+      <categories>
+        <category>研一</category>
+      </categories>
+      <tags>
+        <tag>数值分析</tag>
+        <tag>研究生课程</tag>
+      </tags>
   </entry>
 </search>
