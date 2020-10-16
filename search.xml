@@ -27,6 +27,29 @@
       </tags>
   </entry>
   <entry>
+    <title>数值分析</title>
+    <url>/posts/35252/</url>
+    <content><![CDATA[<h1>第一章</h1>
+<h2 id="题目">题目</h2>
+<br>
+<p><img src= "/img/loading.gif" data-src="https://gitee.com/lin-xi98/cloudimage/raw/master/text1.jpg" alt=""><br>
+<br></p>
+<h2 id="分析">分析</h2>
+<p>  这道题我们要利用迭代格式来求级数的和，不同的是求和的顺序，一个是从大到小而另外一个是从小到大。此题可以用循环轻松秒杀，问题是如何输出有效位数？在这个问题上我思考了很久，其实完全可以输出答案后自己看有几位，但我就是懒，想要直接输出控制台上。</p>
+<h2 id="代码实现">代码实现</h2>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">clear;clc;</span><br><span class="line">while(1)</span><br><span class="line">    N &#x3D; input(&#39;请输入任意大于等于2的整数：&#39;);</span><br><span class="line">    if N&lt;2</span><br><span class="line">        fprintf(&#39;error,please input again \n&#39;);</span><br><span class="line">    else</span><br><span class="line">        break;</span><br><span class="line">    end</span><br><span class="line">end</span><br><span class="line">SN1 &#x3D; single(0);</span><br><span class="line">SN2 &#x3D; single(0);</span><br><span class="line">for i &#x3D; 2:N</span><br><span class="line">    SN1 &#x3D; SN1 +1&#x2F;(i^2-1);</span><br><span class="line">    SN2 &#x3D; SN2 +1&#x2F;((N-i+2)^2-1);</span><br><span class="line">end</span><br><span class="line">acuratevalue &#x3D; 1&#x2F;2*(3&#x2F;2-1&#x2F;N-1&#x2F;(N+1));</span><br><span class="line">fprintf(&#39;当N的次数为%d时,所取得的精确值为：%d \n&#39;,N,acuratevalue);</span><br><span class="line">fprintf(&#39;若采用从大到小的顺序求得的结果为：%f \n&#39;,SN1);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN1,6))-2);</span><br><span class="line">fprintf(&#39;若采用从小到大的顺序求得的结果为：%f \n&#39;,SN2);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN2,6))-2);</span><br></pre></td></tr></table></figure>
+<h2 id="总结分析">总结分析</h2>
+<p>  😆最后还是很方便的把有几位输出到了控制台，原理就是length函数，偷了个懒知道求出来都是小数，指定保存位数，然后数出来小数点后有几位就完事了，前面我还想那么复杂😒，心得就是大数吃小数。</p>
+]]></content>
+      <categories>
+        <category>研一</category>
+      </categories>
+      <tags>
+        <tag>数值分析</tag>
+        <tag>研究生课程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇博客</title>
     <url>/posts/63785/</url>
     <content><![CDATA[<h1>我的第一篇博客</h1>
@@ -41,6 +64,8 @@
 <h3 id="插入链接">插入链接</h3>
 <p><a href="https://www.zhihu.com/hot" target="_blank" rel="noopener">知乎</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="noopener">简书</a></p>
+<!-- 添加一个 class 为 LinkCard -->
+<p><a href="https://bestzuo.cn" target="_blank" rel="noopener" class="LinkCard">Sanarous’s Blog</a></p>
 <p>乌尔奇奥拉</p>
 <p><img src= "/img/loading.gif" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1601130596381&amp;di=f54dd235305358a097377b228aa78b24&amp;imgtype=0&amp;src=http%3A%2F%2Fgss0.baidu.com%2F7Po3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F63d0f703918fa0ecd74812222b9759ee3d6ddb16.jpg" alt=""></p>
 <p><img src= "/img/loading.gif" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1601130788225&amp;di=04934b05806c00e70aed3711f1cd479c&amp;imgtype=0&amp;src=http%3A%2F%2Fp3.qhmsg.com%2Ft01b3a1cce30c8c559c.jpg" alt=""></p>
@@ -108,29 +133,10 @@
 </table>
 </br>  
 <p>-左对齐， :-: 中心对齐，-: 右对齐</p>
+<!-- 插入哔哩哔哩视频 -->
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=52516662&bvid=BV1o4411E7xW&cid=91907659&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=479223232&auto=0&height=66"></iframe>]]></content>
-  </entry>
-  <entry>
-    <title>数值分析</title>
-    <url>/posts/35252/</url>
-    <content><![CDATA[<h1>第一章</h1>
-<h2 id="题目">题目</h2>
-<br>
-<p><img src= "/img/loading.gif" data-src="https://gitee.com/lin-xi98/cloudimage/raw/master/text1.jpg" alt=""><br>
-<br></p>
-<h2 id="分析">分析</h2>
-<p>  这道题我们要利用迭代格式来求级数的和，不同的是求和的顺序，一个是从大到小而另外一个是从小到大。此题可以用循环轻松秒杀，问题是如何输出有效位数？在这个问题上我思考了很久，其实完全可以输出答案后自己看有几位，但我就是懒，想要直接输出控制台上。</p>
-<h2 id="代码实现">代码实现</h2>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">clear;clc;</span><br><span class="line">while(1)</span><br><span class="line">    N &#x3D; input(&#39;请输入任意大于等于2的整数：&#39;);</span><br><span class="line">    if N&lt;2</span><br><span class="line">        fprintf(&#39;error,please input again \n&#39;);</span><br><span class="line">    else</span><br><span class="line">        break;</span><br><span class="line">    end</span><br><span class="line">end</span><br><span class="line">SN1 &#x3D; single(0);</span><br><span class="line">SN2 &#x3D; single(0);</span><br><span class="line">for i &#x3D; 2:N</span><br><span class="line">    SN1 &#x3D; SN1 +1&#x2F;(i^2-1);</span><br><span class="line">    SN2 &#x3D; SN2 +1&#x2F;((N-i+2)^2-1);</span><br><span class="line">end</span><br><span class="line">acuratevalue &#x3D; 1&#x2F;2*(3&#x2F;2-1&#x2F;N-1&#x2F;(N+1));</span><br><span class="line">fprintf(&#39;当N的次数为%d时,所取得的精确值为：%d \n&#39;,N,acuratevalue);</span><br><span class="line">fprintf(&#39;若采用从大到小的顺序求得的结果为：%f \n&#39;,SN1);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN1,6))-2);</span><br><span class="line">fprintf(&#39;若采用从小到大的顺序求得的结果为：%f \n&#39;,SN2);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN2,6))-2);</span><br></pre></td></tr></table></figure>
-<h2 id="总结分析">总结分析</h2>
-<p>  😆最后还是很方便的把有几位输出到了控制台，原理就是length函数，偷了个懒知道求出来都是小数，指定保存位数，然后数出来小数点后有几位就完事了，前面我还想那么复杂😒，心得就是大数吃小数。</p>
-]]></content>
-      <categories>
-        <category>研一</category>
-      </categories>
-      <tags>
-        <tag>数值分析</tag>
-        <tag>研究生课程</tag>
-      </tags>
   </entry>
 </search>

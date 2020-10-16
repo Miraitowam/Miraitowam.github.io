@@ -1492,10 +1492,10 @@ pre .addition {
   color: #105ede;
 }
 pre .meta {
-  color: #c792ea;
+  color: #7c4dff;
 }
 pre .comment {
-  color: #969896;
+  color: rgba(149,165,166,0.8);
 }
 pre .variable,
 pre .attribute,
@@ -1509,10 +1509,10 @@ pre .css .id,
 pre .tag .name,
 pre .css .class,
 pre .css .pseudo {
-  color: #ff5370;
+  color: #e53935;
 }
 pre .tag {
-  color: #89ddff;
+  color: #39adb5;
 }
 pre .number,
 pre .preprocessor,
@@ -1520,10 +1520,10 @@ pre .literal,
 pre .params,
 pre .constant,
 pre .command {
-  color: #f78c6c;
+  color: #f76d47;
 }
 pre .built_in {
-  color: #ffcb6b;
+  color: #ffb62c;
 }
 pre .ruby .class .title,
 pre .css .rules .attribute,
@@ -1536,12 +1536,12 @@ pre .xml .cdata,
 pre .special,
 pre .number,
 pre .formula {
-  color: #c3e88d;
+  color: #91b859;
 }
 pre .keyword,
 pre .title,
 pre .css .hexcolor {
-  color: #89ddff;
+  color: #39adb5;
 }
 pre .function,
 pre .python .decorator,
@@ -1551,19 +1551,19 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #82aaff;
+  color: #6182b8;
 }
 pre .tag .attr,
 pre .javascript .function {
-  color: #c792ea;
+  color: #7c4dff;
 }
 #article-container pre,
 #article-container figure.highlight {
   overflow: auto;
   margin: 0 0 1rem;
   padding: 0;
-  background: #212121;
-  color: #eff;
+  background: #f6f8fa;
+  color: #90a4ae;
   line-height: 20px;
 }
 blockquote {
@@ -1605,7 +1605,7 @@ blockquote footer cite:before {
 #article-container pre code {
   padding: 0;
   background: none;
-  color: #eff;
+  color: #90a4ae;
   text-shadow: none;
 }
 #article-container figure.highlight {
@@ -1617,7 +1617,7 @@ blockquote footer cite:before {
   border: none;
 }
 #article-container figure.highlight .line.marked {
-  background-color: rgba(97,97,97,0.314);
+  background-color: rgba(128,203,196,0.251);
 }
 #article-container figure.highlight table {
   display: block;
@@ -1645,16 +1645,16 @@ blockquote footer cite:before {
 #article-container figure.highlight figcaption a {
   float: right;
   padding-right: 10px;
-  color: #eff;
+  color: #90a4ae;
 }
 #article-container figure.highlight figcaption a:hover {
-  border-bottom-color: #eff;
+  border-bottom-color: #90a4ae;
 }
 #article-container figure.highlight .gutter pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  background-color: #212121;
-  color: rgba(238,255,255,0.5);
+  background-color: #f6f8fa;
+  color: rgba(144,164,174,0.5);
   text-align: right;
 }
 #article-container figure.highlight .code pre {
@@ -1670,8 +1670,8 @@ blockquote footer cite:before {
   overflow: hidden;
   width: 100%;
   height: 1.5rem;
-  background: #1c1c1c;
-  color: rgba(238,255,255,0.8);
+  background: #e6ebf1;
+  color: #90a4ae;
   font-size: 14px;
 }
 #article-container figure.highlight .highlight-tools .code-expand {
@@ -1749,8 +1749,8 @@ blockquote footer cite:before {
 #article-container figure.highlight {
   margin: 0 0 1.2rem;
   border-radius: 7px;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(144,164,174,0.4);
+  box-shadow: 0 5px 10px 0 rgba(144,164,174,0.4);
   -webkit-transform: translateZ(0);
 }
 #article-container figure.highlight .highlight-tools:after {
@@ -4522,7 +4522,7 @@ img {
   background-color: #ff7242;
 }
 #vcomment textarea {
-  background: url("https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@1.4.7/img/comment_bg.png") 100% 100% no-repeat;
+  background: url("https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp") 100% 100% no-repeat;
 }
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
