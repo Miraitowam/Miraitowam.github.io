@@ -79,5 +79,3 @@ window.onload = function () {
         }
     }
 }
-
-<div id="weather-v2-plugin-simple"></div>
