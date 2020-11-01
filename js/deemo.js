@@ -79,6 +79,7 @@ window.onload = function () {
         }
     }
 }
+
 // 调用一言
 window.onload = function () {
     var hitokoto = document.querySelector('.hitokoto');

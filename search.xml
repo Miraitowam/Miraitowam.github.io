@@ -4,18 +4,17 @@
     <title>Hello World</title>
     <url>/posts/520520/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
       <categories>
@@ -27,85 +26,58 @@
       </tags>
   </entry>
   <entry>
-    <title>随笔测试页</title>
-    <url>/posts/56768/</url>
-    <content><![CDATA[<div class="ipage"> 
-<div class="ititle">节选自《你若安好便是晴天》- 前言</div>
- <div class="izhengwen"> 
- <p>
- 几场梅雨，几卷荷风，江南已是烟水迷离。小院里湿润的青苔在雨中纯净生长。这个季节，许多人都在打听关于莲荷的消息，以及茉莉在黄昏浮动的神秘幽香。不知多少人会记得有个女子，曾经走过人间四月天，又与莲开的夏季有过相濡以沫的约定。
-<p>一个人，一本书，一杯茶，一帘梦。有时候，寂寞是这样叫人心动，也只有此刻，世事才会如此波澜不惊。凉风吹起书页，这烟雨让尘封在书卷里的词章和故事弥漫着潮湿的气息。独倚幽窗，看转角处的青石小巷，一柄久违的油纸伞，遮住了低过屋檐的光阴。</p>
-<p>时光微凉，那一场远去的往事被春水浸泡，秋风吹拂，早已洗去铅华，清绝明净。以为历经人生匆匆聚散，尝过尘世种种烟火，应该承担岁月带给我们的沧桑。可流年分明安然无恙，而山石草木是这样毫发无伤。只是曾经许过地老天荒的城，在细雨中越发地清瘦单薄。</p>
-<p>青梅煎好的茶水，还是当年的味道；而我们等候的人，不会再来。后来才知道，那一袭素色白衣的女子已化身为燕，去寻觅水乡旧巢。她走过的地方，有一树一树的花开，她呢喃的梁间，还留着余温犹存的梦。有人说，她是个冰洁的女子，所以无论人世如何变迁，她都有着美丽的容颜。有人说，她是个理智的女子，不管面临怎样的诱惑，最后都可以全身而退。</p>
-<p>她叫林徽因，出生于杭州，是许多人梦中期待的白莲。她在雨雾之都伦敦，发生过一场空前绝后的康桥之恋。她爱过三个男子，爱得清醒，也爱得平静。徐志摩为她徜徉在康桥，深情地等待一场旧梦可以归来。梁思成与她携手走过千山万水，为完成使命而相约白头。金岳霖为她终身不娶，痴心不改地守候一世。可她懂得人生飘忽不定，要学会随遇而安。</p>
- </p> 
- </div> 
- </div>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-        <tag>书摘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第一篇博文</title>
     <url>/posts/63785/</url>
     <content><![CDATA[<blockquote>
 <p>本篇文档没有实际意义，仅仅是记录我四处<ruby><rb>借鉴</rb><rt>chao xi</rt></ruby>的代码或者新奇玩意</p>
 </blockquote>
-<h1>Markdown</h1>
-<a id="more"></a>
-<h2 id="Markdown的使用">Markdown的使用</h2>
-<h3 id="列表的使用-最多6级标题">列表的使用 <!--最多6级标题--></h3>
-<ol>
+<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><a id="more"></a>
+<h2 id="Markdown的使用"><a href="#Markdown的使用" class="headerlink" title="Markdown的使用"></a>Markdown的使用</h2><h3 id="列表的使用"><a href="#列表的使用" class="headerlink" title="列表的使用 "></a>列表的使用 <!--最多6级标题--></h3><ol>
 <li>文本1</li>
 <li>文本2</li>
 <li>文本3</li>
 </ol>
-<h3 id="插入链接">插入链接</h3>
-<p><a href="https://www.zhihu.com/hot" target="_blank" rel="noopener">知乎</a></p>
-<p><a href="http://www.jianshu.com" target="_blank" rel="noopener">简书</a></p>
+<h3 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h3><p><a href="https://www.zhihu.com/hot" target="_blank" rel="noopener">知乎</a></p>
+<p><a href="http://www.jianshu.com/" target="_blank" rel="noopener">简书</a></p>
 <!-- 添加一个 class 为 LinkCard -->
 <p><a href="https://bestzuo.cn" target="_blank" rel="noopener" class="LinkCard">Sanarous’s Blog</a></p>
 <p>乌尔奇奥拉</p>
-<p><img src= "/img/loading.gif" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1601130596381&amp;di=f54dd235305358a097377b228aa78b24&amp;imgtype=0&amp;src=http%3A%2F%2Fgss0.baidu.com%2F7Po3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F63d0f703918fa0ecd74812222b9759ee3d6ddb16.jpg" alt=""></p>
-<p><img src= "/img/loading.gif" data-src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1601130788225&amp;di=04934b05806c00e70aed3711f1cd479c&amp;imgtype=0&amp;src=http%3A%2F%2Fp3.qhmsg.com%2Ft01b3a1cce30c8c559c.jpg" alt=""></p>
-<h3 id="引用">引用</h3>
-<blockquote>
-<p>曾经沧海难为水，除却巫山不是云。<br>
-取次花丛懒回顾，半缘修道半缘君。</p>
+<p><img src= "/img/loading.gif" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601130596381&di=f54dd235305358a097377b228aa78b24&imgtype=0&src=http://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/63d0f703918fa0ecd74812222b9759ee3d6ddb16.jpg"></p>
+<p><img src= "/img/loading.gif" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601130788225&di=04934b05806c00e70aed3711f1cd479c&imgtype=0&src=http://p3.qhmsg.com/t01b3a1cce30c8c559c.jpg"></p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><blockquote>
+<p>曾经沧海难为水，除却巫山不是云。<br>取次花丛懒回顾，半缘修道半缘君。</p>
 </blockquote>
 <blockquote>
 <p>用一个*包含就是斜体，两个就是粗体</p>
 </blockquote>
-<h3 id="表格">表格</h3>
-<table>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
 <thead>
 <tr>
 <th>Tables</th>
-<th style="text-align:center">Are</th>
-<th style="text-align:right">Cool</th>
+<th align="center">Are</th>
+<th align="right">Cool</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>col 3 is</td>
-<td style="text-align:center">right-aligned</td>
-<td style="text-align:right">$1600</td>
+<td align="center">right-aligned</td>
+<td align="right">$1600</td>
 </tr>
 <tr>
 <td>col 2 is</td>
-<td style="text-align:center">centered</td>
-<td style="text-align:right">$12</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
 </tr>
 <tr>
 <td>zebra stripes</td>
-<td style="text-align:center">are neat</td>
-<td style="text-align:right">$1</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
   <p></p>
+
+
+
 <table>
 <thead>
 <tr>
@@ -114,8 +86,7 @@
 <th>cat</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>foo</td>
 <td>foo</td>
 <td>foo</td>
@@ -130,15 +101,21 @@
 <td>baz</td>
 <td>baz</td>
 </tr>
-</tbody>
-</table>
-</br>  
+<tr>
+<td></br></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
 <p>-左对齐， :-: 中心对齐，-: 右对齐</p>
 <!-- 插入哔哩哔哩视频 -->
 <div style="position: relative; padding: 30% 45%;">
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=52516662&bvid=BV1o4411E7xW&cid=91907659&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
+
+
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=479223232&auto=0&height=66"></iframe>
+
 <!-- 天天网抑云 -->
 <div class="card cardbg">
 <div class="note info">今天你网抑云了吗？兄弟们，到点了到点了，都给我哭~ 呜呜呜呜呜...，夜间11：59：59，来不及解释了，<code>上车？</code></a></div>
@@ -162,7 +139,9 @@
    <a href="javascript:location.reload()"><span class="huans">下一句</span></a> 
   </div>
  <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/Violet.model.json"},"display":{"position":"right","width":300,"height":500},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
-</html>]]></content>
+</html>
+
+]]></content>
       <tags>
         <tag>实验室</tag>
       </tags>
@@ -170,17 +149,12 @@
   <entry>
     <title>数值分析</title>
     <url>/posts/35252/</url>
-    <content><![CDATA[<h1>第一章</h1>
-<h2 id="题目">题目</h2>
-<br>
-<p><img src= "/img/loading.gif" data-src="https://gitee.com/lin-xi98/cloudimage/raw/master/text1.jpg" alt=""><br>
-<br></p>
-<h2 id="分析">分析</h2>
-<p>  这道题我们要利用迭代格式来求级数的和，不同的是求和的顺序，一个是从大到小而另外一个是从小到大。此题可以用循环轻松秒杀，问题是如何输出有效位数？在这个问题上我思考了很久，其实完全可以输出答案后自己看有几位，但我就是懒，想要直接输出控制台上。</p>
-<h2 id="代码实现">代码实现</h2>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">clear;clc;</span><br><span class="line">while(1)</span><br><span class="line">    N &#x3D; input(&#39;请输入任意大于等于2的整数：&#39;);</span><br><span class="line">    if N&lt;2</span><br><span class="line">        fprintf(&#39;error,please input again \n&#39;);</span><br><span class="line">    else</span><br><span class="line">        break;</span><br><span class="line">    end</span><br><span class="line">end</span><br><span class="line">SN1 &#x3D; single(0);</span><br><span class="line">SN2 &#x3D; single(0);</span><br><span class="line">for i &#x3D; 2:N</span><br><span class="line">    SN1 &#x3D; SN1 +1&#x2F;(i^2-1);</span><br><span class="line">    SN2 &#x3D; SN2 +1&#x2F;((N-i+2)^2-1);</span><br><span class="line">end</span><br><span class="line">acuratevalue &#x3D; 1&#x2F;2*(3&#x2F;2-1&#x2F;N-1&#x2F;(N+1));</span><br><span class="line">fprintf(&#39;当N的次数为%d时,所取得的精确值为：%d \n&#39;,N,acuratevalue);</span><br><span class="line">fprintf(&#39;若采用从大到小的顺序求得的结果为：%f \n&#39;,SN1);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN1,6))-2);</span><br><span class="line">fprintf(&#39;若采用从小到大的顺序求得的结果为：%f \n&#39;,SN2);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN2,6))-2);</span><br></pre></td></tr></table></figure>
-<h2 id="总结分析">总结分析</h2>
-<p>  😆最后还是很方便的把有几位输出到了控制台，原理就是length函数，偷了个懒知道求出来都是小数，指定保存位数，然后数出来小数点后有几位就完事了，前面我还想那么复杂😒，心得就是大数吃小数。</p>
+    <content><![CDATA[<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><br>
+
+<p><img src= "/img/loading.gif" data-src="https://gitee.com/lin-xi98/cloudimage/raw/master/text1.jpg"><br><br></p>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>&ensp; 这道题我们要利用迭代格式来求级数的和，不同的是求和的顺序，一个是从大到小而另外一个是从小到大。此题可以用循环轻松秒杀，问题是如何输出有效位数？在这个问题上我思考了很久，其实完全可以输出答案后自己看有几位，但我就是懒，想要直接输出控制台上。</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">clear;clc;</span><br><span class="line">while(1)</span><br><span class="line">    N &#x3D; input(&#39;请输入任意大于等于2的整数：&#39;);</span><br><span class="line">    if N&lt;2</span><br><span class="line">        fprintf(&#39;error,please input again \n&#39;);</span><br><span class="line">    else</span><br><span class="line">        break;</span><br><span class="line">    end</span><br><span class="line">end</span><br><span class="line">SN1 &#x3D; single(0);</span><br><span class="line">SN2 &#x3D; single(0);</span><br><span class="line">for i &#x3D; 2:N</span><br><span class="line">    SN1 &#x3D; SN1 +1&#x2F;(i^2-1);</span><br><span class="line">    SN2 &#x3D; SN2 +1&#x2F;((N-i+2)^2-1);</span><br><span class="line">end</span><br><span class="line">acuratevalue &#x3D; 1&#x2F;2*(3&#x2F;2-1&#x2F;N-1&#x2F;(N+1));</span><br><span class="line">fprintf(&#39;当N的次数为%d时,所取得的精确值为：%d \n&#39;,N,acuratevalue);</span><br><span class="line">fprintf(&#39;若采用从大到小的顺序求得的结果为：%f \n&#39;,SN1);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN1,6))-2);</span><br><span class="line">fprintf(&#39;若采用从小到大的顺序求得的结果为：%f \n&#39;,SN2);</span><br><span class="line">fprintf(&#39;其有效位数为：%d \n&#39;,length(num2str(SN2,6))-2);</span><br></pre></td></tr></table></figure>
+<h2 id="总结分析"><a href="#总结分析" class="headerlink" title="总结分析"></a>总结分析</h2><p>&ensp; 😆最后还是很方便的把有几位输出到了控制台，原理就是length函数，偷了个懒知道求出来都是小数，指定保存位数，然后数出来小数点后有几位就完事了，前面我还想那么复杂😒，心得就是大数吃小数。</p>
 ]]></content>
       <categories>
         <category>研一</category>
@@ -188,6 +162,28 @@
       <tags>
         <tag>数值分析</tag>
         <tag>研究生课程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随笔测试页</title>
+    <url>/posts/56768/</url>
+    <content><![CDATA[<div class="ipage"> 
+<div class="ititle">节选自《你若安好便是晴天》- 前言</div>
+ <div class="izhengwen"> 
+ <p>
+ 几场梅雨，几卷荷风，江南已是烟水迷离。小院里湿润的青苔在雨中纯净生长。这个季节，许多人都在打听关于莲荷的消息，以及茉莉在黄昏浮动的神秘幽香。不知多少人会记得有个女子，曾经走过人间四月天，又与莲开的夏季有过相濡以沫的约定。
+
+<p>一个人，一本书，一杯茶，一帘梦。有时候，寂寞是这样叫人心动，也只有此刻，世事才会如此波澜不惊。凉风吹起书页，这烟雨让尘封在书卷里的词章和故事弥漫着潮湿的气息。独倚幽窗，看转角处的青石小巷，一柄久违的油纸伞，遮住了低过屋檐的光阴。</p>
+<p>时光微凉，那一场远去的往事被春水浸泡，秋风吹拂，早已洗去铅华，清绝明净。以为历经人生匆匆聚散，尝过尘世种种烟火，应该承担岁月带给我们的沧桑。可流年分明安然无恙，而山石草木是这样毫发无伤。只是曾经许过地老天荒的城，在细雨中越发地清瘦单薄。</p>
+<p>青梅煎好的茶水，还是当年的味道；而我们等候的人，不会再来。后来才知道，那一袭素色白衣的女子已化身为燕，去寻觅水乡旧巢。她走过的地方，有一树一树的花开，她呢喃的梁间，还留着余温犹存的梦。有人说，她是个冰洁的女子，所以无论人世如何变迁，她都有着美丽的容颜。有人说，她是个理智的女子，不管面临怎样的诱惑，最后都可以全身而退。</p>
+<p>她叫林徽因，出生于杭州，是许多人梦中期待的白莲。她在雨雾之都伦敦，发生过一场空前绝后的康桥之恋。她爱过三个男子，爱得清醒，也爱得平静。徐志摩为她徜徉在康桥，深情地等待一场旧梦可以归来。梁思成与她携手走过千山万水，为完成使命而相约白头。金岳霖为她终身不娶，痴心不改地守候一世。可她懂得人生飘忽不定，要学会随遇而安。</p>
+ </p> 
+ </div> 
+ </div>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+        <tag>书摘</tag>
       </tags>
   </entry>
 </search>
